@@ -13,7 +13,7 @@ const options = {
 };
 
 test('default options', t => {
-    const scope = nock('https://192.168.0.1:8443')
+    const scope = nock('https://127.0.0.1:8443')
         .post('/api/login', {
             username: '',
             password: ''
