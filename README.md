@@ -1,5 +1,5 @@
 # network-unifi
-[![CircleCI](https://circleci.com/gh/ivx/network-unifi.svg?style=svg)](https://circleci.com/gh/ivx/network-unifi) [![Coverage Status](https://coveralls.io/repos/github/ivx/network-unifi/badge.svg?branch=master)](https://coveralls.io/github/ivx/network-unifi?branch=master)
+[![CircleCI](https://circleci.com/gh/danielheth/network-unifi.svg?style=svg)](https://circleci.com/gh/danielheth/network-unifi) [![Coverage Status](https://coveralls.io/repos/github/danielheth/network-unifi/badge.svg?branch=master)](https://coveralls.io/github/danielheth/network-unifi?branch=master)
 
 > Library for accessing the unifi network equipment
 

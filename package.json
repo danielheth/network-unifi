@@ -27,18 +27,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivx/network-unifi.git"
+    "url": "git+https://github.com/danielheth/network-unifi.git"
   },
   "keywords": [
     "unifi",
     "network"
   ],
-  "author": "Alexander Plavinski <alexander.plavinski@invision.de>",
+  "author": "Daniel H Moran <danielheth@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ivx/network-unifi/issues"
+    "url": "https://github.com/danielheth/network-unifi/issues"
   },
-  "homepage": "https://github.com/ivx/network-unifi#readme",
+  "homepage": "https://github.com/danielheth/network-unifi#readme",
   "eslintConfig": {
     "extends": "standard"
   }
