@@ -20,7 +20,7 @@ const options = {
   username: '',
   password: '',
   port: 8443,
-  url: 'https://192.168.0.1',
+  url: 'https://127.0.0.1',
   site: 'default',
   ignoreSsl: false
 }
@@ -61,7 +61,7 @@ Type: `number`
 Port for the Router API
 
 
-##### url (default:`https://192.168.0.1`)
+##### url (default:`https://127.0.0.1`)
 
 Type: `string`
 
@@ -81,4 +81,4 @@ Ignore SSL warnings, for instance when accessing router API that uses a self sig
 
 ## License
 
-MIT © InVision AG
+MIT © Daniel H Moran

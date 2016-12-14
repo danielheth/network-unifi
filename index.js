@@ -8,7 +8,7 @@ const defaults = {
     username: '',
     password: '',
     port: 8443,
-    url: 'https://192.168.0.1',
+    url: 'https://127.0.0.1',
     site: 'default',
     ignoreSsl: false
 };
