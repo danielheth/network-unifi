@@ -101,7 +101,7 @@ test('api #get', t => {
         t.true(scope.isDone() === true);
 
         const scopeAccess = nock('https://172.16.0.10:8443')
-            .get('/api/s/default/')
+            .get('/api/s/default/undefined')
             .reply(201, {data: { test: 'test' }});
 
         return router.get().then(data => {
