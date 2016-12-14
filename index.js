@@ -30,15 +30,13 @@ function unifi (inConfig) {
 
     if (config.ignoreSsl) {
         agent = new https.Agent({
-        host: hostname,
-        port: config.port,
-        path: '/',
-        rejectUnauthorized: false
+            host: hostname,
+            port: config.port,
+            path: '/',
+            rejectUnauthorized: false
         });
         loginOptions.agent = agent;
     }
-
-    console.log(`${baseUrl}/api/login`);
 
     const getSessionCookie = () => got(`${baseUrl}/api/login`, loginOptions).then(result => {
         const cookie = result.headers['set-cookie'];
