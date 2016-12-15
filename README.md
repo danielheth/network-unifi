@@ -16,7 +16,7 @@ npm install --save ubiquiti-unifi
 ## Usage
 
 ``` javascript
-const networkUnifi = require('ubiquiti-unifi')
+const ubiquitiUnifi = require('ubiquiti-unifi')
 const options = {
   username: '',
   password: '',
@@ -26,7 +26,7 @@ const options = {
   ignoreSsl: false
 }
 
-networkUnifi(options)
+ubiquitiUnifi(options)
   .then(router =>
     Promise.all([router.getAccessPoints(), router.getClients()])
   .then(([accessPoints, clients]) => {
@@ -36,7 +36,7 @@ networkUnifi(options)
 
 ## API
 
-### networkUnifi(options)
+### ubiquitiUnifi(options)
 
 Returns a `Promise` with the Router API
 
