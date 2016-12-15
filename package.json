@@ -1,6 +1,6 @@
 {
   "name": "ubiquiti-unifi",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Library for accessing the unifi network equipment",
   "main": "index.js",
   "dependencies": {
