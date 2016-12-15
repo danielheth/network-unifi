@@ -1,5 +1,5 @@
-# network-unifi
-[![CircleCI](https://circleci.com/gh/danielheth/network-unifi.svg?style=svg)](https://circleci.com/gh/danielheth/network-unifi) [![Coverage Status](https://coveralls.io/repos/github/danielheth/network-unifi/badge.svg)](https://coveralls.io/github/danielheth/network-unifi)
+# ubiquiti-unifi
+[![CircleCI](https://circleci.com/gh/danielheth/ubiquiti-unifi.svg?style=svg)](https://circleci.com/gh/danielheth/ubiquiti-unifi) [![Coverage Status](https://coveralls.io/repos/github/danielheth/ubiquiti-unifi/badge.svg)](https://coveralls.io/github/danielheth/ubiquiti-unifi)
 
 > Library for accessing the unifi network equipment
 
@@ -10,13 +10,13 @@ Currently, the module is written on Node 6, without any transpilers, using the
 ES2015+ features.
 
 ``` sh
-npm install --save network-unifi
+npm install --save ubiquiti-unifi
 ```
 
 ## Usage
 
 ``` javascript
-const networkUnifi = require('network-unifi')
+const networkUnifi = require('ubiquiti-unifi')
 const options = {
   username: '',
   password: '',
